@@ -1,0 +1,21 @@
+/* customized main elements */
+html, body {
+    margin: 25px auto;
+    max-width: 960px;
+    line-height: 1.6;
+    font-size: 24px;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 0;
+    background-color: #2cd4eb;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1 {
+    line-height: 1.2;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 75;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+}
