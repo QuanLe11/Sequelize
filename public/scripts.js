@@ -1,4 +1,4 @@
 async function diningData() {
-    // fetch request
-    const request = await fetch('/api/dining');
+  // fetch request
+  const request = await fetch('/api/dining');
 }
