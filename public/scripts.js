@@ -1,33 +1,26 @@
 async function diningData() {
   // fetch request
-  const request = await fetch('/api/macros');
-  const data = request.json();
-  console.table(data);
+  const request = await fetch('/api/dining');
+  const dining = await request.json();
+  const arrayDining = dining.data;
+  console.log(arrayDining);
+  const tableDining = document.querySelector('.table');
+  console.table(tableDining);
 
-  const diningHall = data;
-  console.log(typeof diningHall);
-  const target = document.querySelector('#target');
-  for(Object.entries(diningHall)) {
-    const mealID = item.meal_id;
-    /* const name = item.hall_name; */
-    const calories = item.calories;
-    const carbs = item.carbs;
-    const sodium = item.sodium;
-    const protein = item.protein;
-    const fat = item.fat;
-    const cholesterol = item.cholesterol;
-    target.innerHTML += `
-            <tr>
-                <th>${mealID}</th>
-                <td>${calories}</td>
-                <td>${carbs}</td>
-                <td>${sodium}</td>
-                <td>${protein}</td>
-                <td>${fat}</td>
-                <td>${cholesterol}</td>
-            </tr>
-            `;
-  };
+  arrayDining.forEach((item) => {
+    const appendItem = document.createElement('tr');
+    appendItem.innerHTML = `
+        <td>${item.hall_id}</td>
+        <td>${item.hall_name}</td>
+        <td>${item.hall_address}</td>
+    `;
+    tableDining.append(appendItem);
+  });
 }
 
-diningData();
+async function windowActions() {
+  const data = await diningData();
+  console.table(data);
+}
+
+window.onload = windowActions();
