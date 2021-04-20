@@ -68,16 +68,16 @@ async function windowActions() {
       name: 'Calories',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.calories },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.calories },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.calories },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.calories },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.calories },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.calories },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.calories },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.calories },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.calories },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.calories }
+        { label: chosen[0].meal_name, y: chosen[0].calories },
+        { label: chosen[1].meal_name, y: chosen[1].calories },
+        { label: chosen[2].meal_name, y: chosen[2].calories },
+        { label: chosen[3].meal_name, y: chosen[3].calories },
+        { label: chosen[4].meal_name, y: chosen[4].calories },
+        { label: chosen[5].meal_name, y: chosen[5].calories },
+        { label: chosen[6].meal_name, y: chosen[6].calories },
+        { label: chosen[7].meal_name, y: chosen[7].calories },
+        { label: chosen[8].meal_name, y: chosen[8].calories },
+        { label: chosen[9].meal_name, y: chosen[9].calories }
       ]
     },
     {
@@ -85,16 +85,16 @@ async function windowActions() {
       name: 'Serving Size',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.serving_size },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.serving_size },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.serving_size },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.serving_size },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.serving_size },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.serving_size },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.serving_size },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.serving_size },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.serving_size },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.serving_size }
+        { label: chosen[0].meal_name, y: chosen[0].serving_size },
+        { label: chosen[1].meal_name, y: chosen[1].serving_size },
+        { label: chosen[2].meal_name, y: chosen[2].serving_size },
+        { label: chosen[3].meal_name, y: chosen[3].serving_size },
+        { label: chosen[4].meal_name, y: chosen[4].serving_size },
+        { label: chosen[5].meal_name, y: chosen[5].serving_size },
+        { label: chosen[6].meal_name, y: chosen[6].serving_size },
+        { label: chosen[7].meal_name, y: chosen[7].serving_size },
+        { label: chosen[8].meal_name, y: chosen[8].serving_size },
+        { label: chosen[9].meal_name, y: chosen[9].serving_size }
       ]
     },
     {
@@ -102,16 +102,16 @@ async function windowActions() {
       name: 'Cholesterol',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.cholesterol },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.cholesterol },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.cholesterol },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.cholesterol },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.cholesterol },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.cholesterol },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.cholesterol },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.cholesterol },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.cholesterol },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.cholesterol }
+        { label: chosen[0].meal_name, y: chosen[0].cholesterol },
+        { label: chosen[1].meal_name, y: chosen[1].cholesterol },
+        { label: chosen[2].meal_name, y: chosen[2].cholesterol },
+        { label: chosen[3].meal_name, y: chosen[3].cholesterol },
+        { label: chosen[4].meal_name, y: chosen[4].cholesterol },
+        { label: chosen[5].meal_name, y: chosen[5].cholesterol },
+        { label: chosen[6].meal_name, y: chosen[6].cholesterol },
+        { label: chosen[7].meal_name, y: chosen[7].cholesterol },
+        { label: chosen[8].meal_name, y: chosen[8].cholesterol },
+        { label: chosen[9].meal_name, y: chosen[9].cholesterol }
       ]
     },
     {
@@ -119,16 +119,16 @@ async function windowActions() {
       name: 'Sodium',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.sodium },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.sodium },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.sodium },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.sodium },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.sodium },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.sodium },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.sodium },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.sodium },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.sodium },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.sodium }
+        { label: chosen[0].meal_name, y: chosen[0].sodium },
+        { label: chosen[1].meal_name, y: chosen[1].sodium },
+        { label: chosen[2].meal_name, y: chosen[2].sodium },
+        { label: chosen[3].meal_name, y: chosen[3].sodium },
+        { label: chosen[4].meal_name, y: chosen[4].sodium },
+        { label: chosen[5].meal_name, y: chosen[5].sodium },
+        { label: chosen[6].meal_name, y: chosen[6].sodium },
+        { label: chosen[7].meal_name, y: chosen[7].sodium },
+        { label: chosen[8].meal_name, y: chosen[8].sodium },
+        { label: chosen[9].meal_name, y: chosen[9].sodium }
       ]
     },
     {
@@ -136,16 +136,16 @@ async function windowActions() {
       name: 'Carbs',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.carbs },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.carbs },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.carbs },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.carbs },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.carbs },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.carbs },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.carbs },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.carbs },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.carbs },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.carbs }
+        { label: chosen[0].meal_name, y: chosen[0].carbs },
+        { label: chosen[1].meal_name, y: chosen[1].carbs },
+        { label: chosen[2].meal_name, y: chosen[2].carbs },
+        { label: chosen[3].meal_name, y: chosen[3].carbs },
+        { label: chosen[4].meal_name, y: chosen[4].carbs },
+        { label: chosen[5].meal_name, y: chosen[5].carbs },
+        { label: chosen[6].meal_name, y: chosen[6].carbs },
+        { label: chosen[7].meal_name, y: chosen[7].carbs },
+        { label: chosen[8].meal_name, y: chosen[8].carbs },
+        { label: chosen[9].meal_name, y: chosen[9].carbs }
       ]
     },
     {
@@ -153,16 +153,16 @@ async function windowActions() {
       name: 'Protein',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.protein },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.protein },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.protein },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.protein },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.protein },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.protein },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.protein },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.protein },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.protein },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.protein }
+        { label: chosen[0].meal_name, y: chosen[0].protein },
+        { label: chosen[1].meal_name, y: chosen[1].protein },
+        { label: chosen[2].meal_name, y: chosen[2].protein },
+        { label: chosen[3].meal_name, y: chosen[3].protein },
+        { label: chosen[4].meal_name, y: chosen[4].protein },
+        { label: chosen[5].meal_name, y: chosen[5].protein },
+        { label: chosen[6].meal_name, y: chosen[6].protein },
+        { label: chosen[7].meal_name, y: chosen[7].protein },
+        { label: chosen[8].meal_name, y: chosen[8].protein },
+        { label: chosen[9].meal_name, y: chosen[9].protein }
       ]
     },
     {
@@ -170,16 +170,16 @@ async function windowActions() {
       name: 'Fats',
       showInLegend: 'true',
       dataPoints: [
-        { label: chosen[0].dataValues.meal_name, y: chosen[0].dataValues.fat },
-        { label: chosen[1].dataValues.meal_name, y: chosen[1].dataValues.fat },
-        { label: chosen[2].dataValues.meal_name, y: chosen[2].dataValues.fat },
-        { label: chosen[3].dataValues.meal_name, y: chosen[3].dataValues.fat },
-        { label: chosen[4].dataValues.meal_name, y: chosen[4].dataValues.fat },
-        { label: chosen[5].dataValues.meal_name, y: chosen[5].dataValues.fat },
-        { label: chosen[6].dataValues.meal_name, y: chosen[6].dataValues.fat },
-        { label: chosen[7].dataValues.meal_name, y: chosen[7].dataValues.fat },
-        { label: chosen[8].dataValues.meal_name, y: chosen[8].dataValues.fat },
-        { label: chosen[9].dataValues.meal_name, y: chosen[9].dataValues.fat }
+        { label: chosen[0].meal_name, y: chosen[0].fat },
+        { label: chosen[1].meal_name, y: chosen[1].fat },
+        { label: chosen[2].meal_name, y: chosen[2].fat },
+        { label: chosen[3].meal_name, y: chosen[3].fat },
+        { label: chosen[4].meal_name, y: chosen[4].fat },
+        { label: chosen[5].meal_name, y: chosen[5].fat },
+        { label: chosen[6].meal_name, y: chosen[6].fat },
+        { label: chosen[7].meal_name, y: chosen[7].fat },
+        { label: chosen[8].meal_name, y: chosen[8].fat },
+        { label: chosen[9].meal_name, y: chosen[9].fat }
       ]
     }]
   });

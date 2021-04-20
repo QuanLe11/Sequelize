@@ -93,8 +93,8 @@ router.route('/wholeMeal')
       const wholeMeals = meals.map((meal) => {
         const macroEntry = macros.find((macro) => macro.meal_id === meal.meal_id);
         return {
-          ...meal,
-          ...macroEntry
+          ...meal.dataValues,
+          ...macroEntry.dataValues
         };
       });
       res.json({data: wholeMeals});
